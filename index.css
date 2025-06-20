@@ -135,4 +135,12 @@ span {
     justify-content: center;
     align-items: center;
     gap: 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.48px;
+    word-wrap: break-word;
 }
