@@ -17,6 +17,48 @@ hr {
     border: 1px solid #2F3E53;
 }
 
+button {
+    background-color: #10B981;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+button:hover {
+    background-color: #15a273;
+    transition: transform 0.2s ease-in-out;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1px;
+}
+
+p {
+    color: #D5D4D8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+span {
+    color: #05e89c;
+}
+
 /* ID Selector */
 
 .container {
@@ -65,4 +107,32 @@ hr {
     align-items: center;
     gap: 16px;
     align-self: stretch;
+}
+
+.input-container {
+    display: flex;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    border: 1px solid #2F3E53;
+    background: #273549;
+}
+
+.password-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    width: 100%;
+}
+
+.password-display {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
