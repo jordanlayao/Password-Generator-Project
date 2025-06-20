@@ -8,4 +8,61 @@
 /* Element Selector */
 body {
     background-color: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+    color: white; 
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #2F3E53;
+}
+
+/* ID Selector */
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal {
+    display: flex;
+    width: 628px;
+    height: 550px;
+    padding: 115px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #576374;
+    background: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
 }
