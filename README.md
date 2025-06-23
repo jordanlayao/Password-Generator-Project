@@ -1,2 +1,1 @@
-## 🚀 Staging Site
-[View Live]([https://your-staging-url.com](https://passwordgeneratorprojectlayao.netlify.app/))
+[![View Staging Site](https://img.shields.io/badge/View-Staging-green)](https://passwordgeneratorprojectlayao.netlify.app/))
