@@ -1,2 +1,5 @@
-[View Live Staging Site]
-(https://passwordgeneratorprojectlayao.netlify.app/)
+#Password Generator
+
+View Live Staging Site:
+
+https://passwordgeneratorprojectlayao.netlify.app/
