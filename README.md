@@ -1,4 +1,6 @@
-#Password Generator
+Password Generator
+
+App to generate two random passwords for users using javascript.
 
 View Live Staging Site:
 
